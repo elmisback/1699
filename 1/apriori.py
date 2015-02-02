@@ -1,4 +1,10 @@
-"""apriori.py: a simplified A Priori Algorithm implementation."""
+"""apriori.py: a simplified A Priori Algorithm implementation.
+
+#Usage
+
+Run
+    python apriori.py infile outfile min_support_percentage min_confidence
+"""
 __author__ = 'elm139'
 
 import sys
