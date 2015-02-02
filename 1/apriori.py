@@ -53,7 +53,7 @@ def gen_rules(i_set):
     # Strategy: generate all combinations up to half the size of our itemset.
     # Use each combination as a premise and its complement as an implication.
     return set([(frozenset(p), frozenset(i_set - p)) 
-                    for i in xrange(1, len(i_set)/2 + 1) 
+                    for i in xrange(1, len(i_set)) 
                     for p in map(frozenset, combinations(i_set, i))])
 
 def main():
