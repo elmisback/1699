@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<players>
+	<timestamp>Fri Feb 27 09:17:22 EST 2015</timestamp>
+	<skaterData>
+		<id>8474141</id>		
+		<rank>1</rank>
+		<team>CHI</team>
+		<position>R</position>
+		<name>P. Kane</name>
+		<games_played>61</games_played>
+		<goals>27</goals>
+		<assists>37</assists>
+		<points>64</points>
+	</skaterData>
+	<skaterData>
+		<id>8474161</id>		
+		<rank>2</rank>
+		<team>PHI</team>
+		<position>R</position>
+		<name>J. Voracek</name>
+		<games_played>62</games_played>
+		<goals>19</goals>
+		<assists>45</assists>
+		<points>64</points>
+	</skaterData>
+	<skaterData>
+		<id>8473563</id>		
+		<rank>3</rank>
+		<team>WSH</team>
+		<position>C</position>
+		<name>N. Backstrom</name>
+		<games_played>62</games_played>
+		<goals>18</goals>
+		<assists>46</assists>
+		<points>64</points>
+	</skaterData>
+	<skaterData>
+		<id>8475166</id>		
+		<rank>4</rank>
+		<team>NYI</team>
+		<position>C</position>
+		<name>J. Tavares</name>
+		<games_played>62</games_played>
+		<goals>29</goals>
+		<assists>34</assists>
+		<points>63</points>
+	</skaterData>
+	<skaterData>
+		<id>8471214</id>		
+		<rank>5</rank>
+		<team>WSH</team>
+		<position>L</position>
+		<name>A. Ovechkin</name>
+		<games_played>62</games_played>
+		<goals>39</goals>
+		<assists>23</assists>
+		<points>62</points>
+	</skaterData>
+	<skaterData>
+		<id>8471675</id>		
+		<rank>6</rank>
+		<team>PIT</team>
+		<position>C</position>
+		<name>S. Crosby</name>
+		<games_played>57</games_played>
+		<goals>20</goals>
+		<assists>42</assists>
+		<points>62</points>
+	</skaterData>
+	<skaterData>
+		<id>8471215</id>		
+		<rank>7</rank>
+		<team>PIT</team>
+		<position>C</position>
+		<name>E. Malkin</name>
+		<games_played>56</games_played>
+		<goals>24</goals>
+		<assists>37</assists>
+		<points>61</points>
+	</skaterData>
+	<skaterData>
+		<id>8475765</id>		
+		<rank>8</rank>
+		<team>STL</team>
+		<position>R</position>
+		<name>V. Tarasenko</name>
+		<games_played>61</games_played>
+		<goals>31</goals>
+		<assists>29</assists>
+		<points>60</points>
+	</skaterData>
+	<skaterData>
+		<id>8473994</id>		
+		<rank>9</rank>
+		<team>DAL</team>
+		<position>L</position>
+		<name>J. Benn</name>
+		<games_played>61</games_played>
+		<goals>23</goals>
+		<assists>37</assists>
+		<points>60</points>
+	</skaterData>
+	<skaterData>
+		<id>8475794</id>		
+		<rank>10</rank>
+		<team>DAL</team>
+		<position>C</position>
+		<name>T. Seguin</name>
+		<games_played>55</games_played>
+		<goals>29</goals>
+		<assists>30</assists>
+		<points>59</points>
+	</skaterData>
+	<skaterData>
+		<id>8474870</id>		
+		<rank>11</rank>
+		<team>TBL</team>
+		<position>C</position>
+		<name>T. Johnson</name>
+		<games_played>60</games_played>
+		<goals>23</goals>
+		<assists>36</assists>
+		<points>59</points>
+	</skaterData>
+	<skaterData>
+		<id>8473512</id>		
+		<rank>12</rank>
+		<team>PHI</team>
+		<position>C</position>
+		<name>C. Giroux</name>
+		<games_played>61</games_played>
+		<goals>18</goals>
+		<assists>41</assists>
+		<points>59</points>
+	</skaterData>
+	<skaterData>
+		<id>8470041</id>		
+		<rank>13</rank>
+		<team>NYR</team>
+		<position>L</position>
+		<name>R. Nash</name>
+		<games_played>59</games_played>
+		<goals>37</goals>
+		<assists>21</assists>
+		<points>58</points>
+	</skaterData>
+	<skaterData>
+		<id>8470612</id>		
+		<rank>14</rank>
+		<team>ANA</team>
+		<position>C</position>
+		<name>R. Getzlaf</name>
+		<games_played>59</games_played>
+		<goals>19</goals>
+		<assists>39</assists>
+		<points>58</points>
+	</skaterData>
+	<skaterData>
+		<id>8470794</id>		
+		<rank>15</rank>
+		<team>SJS</team>
+		<position>C</position>
+		<name>J. Pavelski</name>
+		<games_played>62</games_played>
+		<goals>31</goals>
+		<assists>25</assists>
+		<points>56</points>
+	</skaterData>
+	<skaterData>
+		<id>8467876</id>		
+		<rank>16</rank>
+		<team>VAN</team>
+		<position>C</position>
+		<name>H. Sedin</name>
+		<games_played>61</games_played>
+		<goals>12</goals>
+		<assists>44</assists>
+		<points>56</points>
+	</skaterData>
+	<skaterData>
+		<id>8474564</id>		
+		<rank>17</rank>
+		<team>TBL</team>
+		<position>C</position>
+		<name>S. Stamkos</name>
+		<games_played>62</games_played>
+		<goals>32</goals>
+		<assists>23</assists>
+		<points>55</points>
+	</skaterData>
+	<skaterData>
+		<id>8473422</id>		
+		<rank>18</rank>
+		<team>CBJ</team>
+		<position>L</position>
+		<name>N. Foligno</name>
+		<games_played>58</games_played>
+		<goals>23</goals>
+		<assists>32</assists>
+		<points>55</points>
+	</skaterData>
+	<skaterData>
+		<id>8467875</id>		
+		<rank>19</rank>
+		<team>VAN</team>
+		<position>L</position>
+		<name>D. Sedin</name>
+		<games_played>61</games_played>
+		<goals>14</goals>
+		<assists>40</assists>
+		<points>54</points>
+	</skaterData>
+	<skaterData>
+		<id>8474157</id>		
+		<rank>20</rank>
+		<team>MTL</team>
+		<position>L</position>
+		<name>M. Pacioretty</name>
+		<games_played>61</games_played>
+		<goals>30</goals>
+		<assists>23</assists>
+		<points>53</points>
+	</skaterData>
+	<skaterData>
+		<id>8476453</id>		
+		<rank>21</rank>
+		<team>TBL</team>
+		<position>R</position>
+		<name>N. Kucherov</name>
+		<games_played>62</games_played>
+		<goals>23</goals>
+		<assists>30</assists>
+		<points>53</points>
+	</skaterData>
+	<skaterData>
+		<id>8475793</id>		
+		<rank>22</rank>
+		<team>CBJ</team>
+		<position>C</position>
+		<name>R. Johansen</name>
+		<games_played>60</games_played>
+		<goals>21</goals>
+		<assists>32</assists>
+		<points>53</points>
+	</skaterData>
+	<skaterData>
+		<id>8474053</id>		
+		<rank>23</rank>
+		<team>SJS</team>
+		<position>C</position>
+		<name>L. Couture</name>
+		<games_played>62</games_played>
+		<goals>21</goals>
+		<assists>32</assists>
+		<points>53</points>
+	</skaterData>
+	<skaterData>
+		<id>8476887</id>		
+		<rank>24</rank>
+		<team>NSH</team>
+		<position>C</position>
+		<name>F. Forsberg</name>
+		<games_played>62</games_played>
+		<goals>21</goals>
+		<assists>31</assists>
+		<points>52</points>
+	</skaterData>
+	<skaterData>
+		<id>8466138</id>		
+		<rank>25</rank>
+		<team>SJS</team>
+		<position>C</position>
+		<name>J. Thornton</name>
+		<games_played>58</games_played>
+		<goals>12</goals>
+		<assists>40</assists>
+		<points>52</points>
+	</skaterData>
+	<skaterData>
+		<id>8470257</id>		
+		<rank>26</rank>
+		<team>STL</team>
+		<position>L</position>
+		<name>A. Steen</name>
+		<games_played>59</games_played>
+		<goals>19</goals>
+		<assists>32</assists>
+		<points>51</points>
+	</skaterData>
+	<skaterData>
+		<id>8469455</id>		
+		<rank>27</rank>
+		<team>DAL</team>
+		<position>C</position>
+		<name>J. Spezza</name>
+		<games_played>61</games_played>
+		<goals>14</goals>
+		<assists>37</assists>
+		<points>51</points>
+	</skaterData>
+	<skaterData>
+		<id>8467371</id>		
+		<rank>28</rank>
+		<team>NSH</team>
+		<position>C</position>
+		<name>M. Ribeiro</name>
+		<games_played>62</games_played>
+		<goals>12</goals>
+		<assists>39</assists>
+		<points>51</points>
+	</skaterData>
+	<skaterData>
+		<id>8473412</id>		
+		<rank>29</rank>
+		<team>WPG</team>
+		<position>C</position>
+		<name>B. Little</name>
+		<games_played>63</games_played>
+		<goals>24</goals>
+		<assists>26</assists>
+		<points>50</points>
+	</skaterData>
+	<skaterData>
+		<id>8473548</id>		
+		<rank>30</rank>
+		<team>TOR</team>
+		<position>R</position>
+		<name>P. Kessel</name>
+		<games_played>61</games_played>
+		<goals>23</goals>
+		<assists>27</assists>
+		<points>50</points>
+	</skaterData>
+</players>
+	
+

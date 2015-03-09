@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<goalies>
+	<timestamp>Fri Feb 27 10:03:23 EST 2015</timestamp>
+	<skaterData>
+		<id>8471679</id>
+		<rank>1</rank>
+		<team>MTL</team>
+		<name>C. Price</name>
+		<wins>35</wins>
+		<goals_agains_average>1.920000</goals_agains_average>
+		<save_percentage>0.935000</save_percentage>
+		<shutouts>5</shutouts>
+	</skaterData>
+	<skaterData>
+		<id>8471469</id>
+		<rank>2</rank>
+		<team>NSH</team>
+		<name>P. Rinne</name>
+		<wins>35</wins>
+		<goals_agains_average>2.030000</goals_agains_average>
+		<save_percentage>0.930000</save_percentage>
+		<shutouts>3</shutouts>
+	</skaterData>
+	<skaterData>
+		<id>8470594</id>
+		<rank>3</rank>
+		<team>PIT</team>
+		<name>M. Fleury</name>
+		<wins>28</wins>
+		<goals_agains_average>2.170000</goals_agains_average>
+		<save_percentage>0.924000</save_percentage>
+		<shutouts>8</shutouts>
+	</skaterData>
+	<skaterData>
+		<id>8471227</id>
+		<rank>4</rank>
+		<team>MIN</team>
+		<name>D. Dubnyk</name>
+		<wins>23</wins>
+		<goals_agains_average>2.180000</goals_agains_average>
+		<save_percentage>0.924000</save_percentage>
+		<shutouts>6</shutouts>
+	</skaterData>
+	<skaterData>
+		<id>8474651</id>
+		<rank>5</rank>
+		<team>WSH</team>
+		<name>B. Holtby</name>
+		<wins>29</wins>
+		<goals_agains_average>2.200000</goals_agains_average>
+		<save_percentage>0.923000</save_percentage>
+		<shutouts>6</shutouts>
+	</skaterData>
+	<skaterData>
+		<id>8470880</id>
+		<rank>6</rank>
+		<team>STL</team>
+		<name>B. Elliott</name>
+		<wins>19</wins>
+		<goals_agains_average>2.210000</goals_agains_average>
+		<save_percentage>0.921000</save_percentage>
+		<shutouts>3</shutouts>
+	</skaterData>
+	<skaterData>
+		<id>8471239</id>
+		<rank>7</rank>
+		<team>NJD</team>
+		<name>C. Schneider</name>
+		<wins>22</wins>
+		<goals_agains_average>2.220000</goals_agains_average>
+		<save_percentage>0.926000</save_percentage>
+	<shutouts>3</shutouts>
+	</skaterData>
+	<skaterData>
+		<id>8470657</id>
+		<rank>8</rank>
+		<team>DET</team>
+		<name>J. Howard</name>
+		<wins>18</wins>
+		<goals_agains_average>2.230000</goals_agains_average>
+		<save_percentage>0.917000</save_percentage>
+	<shutouts>2</shutouts>
+	</skaterData>
+	<skaterData>
+		<id>8468685</id>
+		<rank>9</rank>
+		<team>NYR</team>
+		<name>H. Lundqvist</name>
+		<wins>25</wins>
+		<goals_agains_average>2.250000</goals_agains_average>
+		<save_percentage>0.922000</save_percentage>
+	<shutouts>5</shutouts>
+	</skaterData>
+	<skaterData>
+		<id>8473461</id>
+		<rank>10</rank>
+		<team>PHI</team>
+		<name>S. Mason</name>
+		<wins>11</wins>
+		<goals_agains_average>2.260000</goals_agains_average>
+		<save_percentage>0.925000</save_percentage>
+	<shutouts>2</shutouts>
+	</skaterData>
+	<skaterData>
+		<id>8474636</id>
+		<rank>11</rank>
+		<team>WPG</team>
+		<name>M. Hutchinson</name>
+		<wins>18</wins>
+		<goals_agains_average>2.290000</goals_agains_average>
+		<save_percentage>0.920000</save_percentage>
+	<shutouts>2</shutouts>
+	</skaterData>
+	<skaterData>
+		<id>8470645</id>
+		<rank>12</rank>
+		<team>CHI</team>
+		<name>C. Crawford</name>
+		<wins>24</wins>
+		<goals_agains_average>2.300000</goals_agains_average>
+		<save_percentage>0.919000</save_percentage>
+	<shutouts>2</shutouts>
+	</skaterData>
+	<skaterData>
+		<id>8471734</id>
+		<rank>13</rank>
+		<team>LAK</team>
+		<name>J. Quick</name>
+		<wins>25</wins>
+		<goals_agains_average>2.350000</goals_agains_average>
+		<save_percentage>0.915000</save_percentage>
+	<shutouts>4</shutouts>
+	</skaterData>
+	<skaterData>
+		<id>8470320</id>
+		<rank>14</rank>
+		<team>CAR</team>
+		<name>C. Ward</name>
+		<wins>16</wins>
+		<goals_agains_average>2.350000</goals_agains_average>
+		<save_percentage>0.914000</save_percentage>
+	<shutouts>1</shutouts>
+	</skaterData>
+	<skaterData>
+		<id>8467950</id>
+		<rank>15</rank>
+		<team>OTT</team>
+		<name>C. Anderson</name>
+		<wins>13</wins>
+		<goals_agains_average>2.370000</goals_agains_average>
+		<save_percentage>0.927000</save_percentage>
+	<shutouts>3</shutouts>
+	</skaterData>
+	<skaterData>
+		<id>8471695</id>
+		<rank>16</rank>
+		<team>BOS</team>
+		<name>T. Rask</name>
+		<wins>24</wins>
+		<goals_agains_average>2.370000</goals_agains_average>
+		<save_percentage>0.919000</save_percentage>
+	<shutouts>2</shutouts>
+	</skaterData>
+	<skaterData>
+		<id>8475883</id>
+		<rank>17</rank>
+		<team>ANA</team>
+		<name>F. Andersen</name>
+		<wins>29</wins>
+		<goals_agains_average>2.370000</goals_agains_average>
+		<save_percentage>0.916000</save_percentage>
+	<shutouts>3</shutouts>
+	</skaterData>
+	<skaterData>
+		<id>8466141</id>
+		<rank>18</rank>
+		<team>FLA</team>
+		<name>R. Luongo</name>
+		<wins>22</wins>
+		<goals_agains_average>2.380000</goals_agains_average>
+		<save_percentage>0.921000</save_percentage>
+	<shutouts>2</shutouts>
+	</skaterData>
+	<skaterData>
+		<id>8471750</id>
+		<rank>19</rank>
+		<team>TBL</team>
+		<name>B. Bishop</name>
+		<wins>30</wins>
+		<goals_agains_average>2.410000</goals_agains_average>
+		<save_percentage>0.912000</save_percentage>
+	<shutouts>1</shutouts>
+	</skaterData>
+	<skaterData>
+		<id>8473972</id>
+		<rank>20</rank>
+		<team>CGY</team>
+		<name>J. Hiller</name>
+		<wins>19</wins>
+		<goals_agains_average>2.460000</goals_agains_average>
+		<save_percentage>0.913000</save_percentage>
+	<shutouts>1</shutouts>
+	</skaterData>
+	<skaterData>
+		<id>8468011</id>
+		<rank>21</rank>
+		<team>VAN</team>
+		<name>R. Miller</name>
+		<wins>28</wins>
+		<goals_agains_average>2.470000</goals_agains_average>
+		<save_percentage>0.913000</save_percentage>
+	<shutouts>6</shutouts>
+	</skaterData>
+	<skaterData>
+		<id>8475660</id>
+		<rank>22</rank>
+		<team>NYR</team>
+		<name>C. Talbot</name>
+		<wins>12</wins>
+		<goals_agains_average>2.490000</goals_agains_average>
+		<save_percentage>0.915000</save_percentage>
+	<shutouts>4</shutouts>
+	</skaterData>
+	<skaterData>
+		<id>8470860</id>
+		<rank>23</rank>
+		<team>NYI</team>
+		<name>J. Halak</name>
+		<wins>32</wins>
+		<goals_agains_average>2.490000</goals_agains_average>
+		<save_percentage>0.910000</save_percentage>
+	<shutouts>4</shutouts>
+	</skaterData>
+	<skaterData>
+		<id>8474596</id>
+		<rank>24</rank>
+		<team>STL</team>
+		<name>J. Allen</name>
+		<wins>17</wins>
+		<goals_agains_average>2.500000</goals_agains_average>
+		<save_percentage>0.905000</save_percentage>
+	<shutouts>3</shutouts>
+	</skaterData>
+	<skaterData>
+		<id>8471403</id>
+		<rank>25</rank>
+		<team>CGY</team>
+		<name>K. Ramo</name>
+		<wins>10</wins>
+		<goals_agains_average>2.510000</goals_agains_average>
+		<save_percentage>0.911000</save_percentage>
+	<shutouts>2</shutouts>
+	</skaterData>
+	<skaterData>
+		<id>8475663</id>
+		<rank>26</rank>
+		<team>VAN</team>
+		<name>E. Lack</name>
+		<wins>7</wins>
+		<goals_agains_average>2.530000</goals_agains_average>
+		<save_percentage>0.916000</save_percentage>
+	<shutouts>1</shutouts>
+	</skaterData>
+	<skaterData>
+		<id>8471715</id>
+		<rank>27</rank>
+		<team>WPG</team>
+		<name>O. Pavelec</name>
+		<wins>13</wins>
+		<goals_agains_average>2.600000</goals_agains_average>
+		<save_percentage>0.909000</save_percentage>
+	<shutouts>1</shutouts>
+	</skaterData>
+	<skaterData>
+		<id>8474550</id>
+		<rank>28</rank>
+		<team>SJS</team>
+		<name>A. Niemi</name>
+		<wins>24</wins>
+		<goals_agains_average>2.620000</goals_agains_average>
+		<save_percentage>0.913000</save_percentage>
+	<shutouts>4</shutouts>
+	</skaterData>
+	<skaterData>
+		<id>8475311</id>
+		<rank>29</rank>
+		<team>MIN</team>
+		<name>D. Kuemper</name>
+		<wins>13</wins>
+		<goals_agains_average>2.620000</goals_agains_average>
+		<save_percentage>0.904000</save_percentage>
+	<shutouts>3</shutouts>
+	</skaterData>
+	<skaterData>
+		<id>8473575</id>
+		<rank>30</rank>
+		<team>COL</team>
+		<name>S. Varlamov</name>
+		<wins>18</wins>
+		<goals_agains_average>2.650000</goals_agains_average>
+		<save_percentage>0.918000</save_percentage>
+	<shutouts>4</shutouts>
+	</skaterData>
+</goalies>
+	
