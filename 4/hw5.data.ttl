@@ -1,0 +1,85 @@
+# File: hw5.data.ttl
+# Desc: sample input file for HW 5
+# Auth: Alexandros Labrinidis (labrinid@cs.pitt.edu)
+# Date: Tue Apr  7 23:40:30 EDT 2015
+
+@prefix p: <http://db.cs.pitt.edu/courses/cs1699/spring2015/property/> .
+@prefix d: <http://db.cs.pitt.edu/courses/cs1699/spring2015/data/> .
+
+d:pid123	p:pid		"123" .
+d:pid123	p:pname		"pajamas" .
+d:pid123	p:dept		"clothing" .
+
+d:pid456	p:pid		"456" .
+d:pid456	p:pname		"copier paper" .
+d:pid456	p:dept		"office" .
+
+d:oid10511	p:oid		"10511" .
+d:oid10511	p:pid		"123" .
+d:oid10511	p:sid		"4001" .
+d:oid10511	p:cid		"601" .
+d:oid10511	p:priceversion	"7" .
+d:oid10511	p:odate		"2015-01-22" .
+d:oid10511	p:quantity	"2" .
+
+d:oid10512	p:oid		"10512" .
+d:oid10512	p:pid		"123" .
+d:oid10512	p:sid		"4002" .
+d:oid10512	p:cid		"602" .
+d:oid10512	p:priceversion	"8" .
+d:oid10512	p:odate		"2015-02-19" .
+d:oid10512	p:quantity	"1" .
+
+d:price1	p:pid		"123" .
+d:price1	p:sid		"4001" .
+d:price1	p:priceversion	"7" .
+d:price1	p:price		"21.00" .
+
+d:price2	p:pid		"123" .
+d:price2	p:sid		"4001" .
+d:price2	p:priceversion	"8" .
+d:price2	p:price		"25.00" .
+
+d:price3	p:pid		"123" .
+d:price3	p:sid		"4002" .
+d:price3	p:priceversion	"7" .
+d:price3	p:price		"20.00" .
+
+d:price4	p:pid		"123" .
+d:price4	p:sid		"4002" .
+d:price4	p:priceversion	"8" .
+d:price4	p:price		"24.00" .
+
+d:price5	p:pid		"456" .
+d:price5	p:sid		"4002" .
+d:price5	p:priceversion	"8" .
+d:price5	p:price		"11.00" .
+
+d:sid4001	p:sid		"4001" .
+d:sid4001	p:sname		"Miami Supplies" .
+d:sid4001	p:scity		"Miami" .
+d:sid4001	p:sstate	"FL" .
+
+d:sid4002	p:sid		"4002" .
+d:sid4002	p:sname		"Supplies N@" .
+d:sid4002	p:parent	d:sid4001 .
+d:sid4002	p:scity		"Pittsburgh" .
+d:sid4002	p:sstate	"PA" .
+
+d:cid601	p:cid		"601" .
+d:cid601	p:cname		"Alice" .
+d:cid601	p:email		"alice@yahoo.com" .
+d:cid601	p:ccity		"Pittsburgh" .
+d:cid601	p:cstate	"PA" .
+
+d:cid602	p:cid		"602" .
+d:cid602	p:cname		"Bob" .
+d:cid602	p:email		"bob@bob.com" .
+d:cid602	p:ccity		"Bethesda" .
+d:cid602	p:cstate	"MD" .
+
+d:tax100	p:state		"FL" .
+d:tax100	p:taxrate	"0.05" .
+
+d:tax101	p:state		"PA" .
+d:tax101	p:taxrate	"0.07" .

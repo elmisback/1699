@@ -1,0 +1,14 @@
+# Provide the SPARQL query that will print the name of every company and the
+# name of its parent company, for all companies – the parent company field
+# should be blank if the company does not have a parent company.
+
+PREFIX p: <http://db.cs.pitt.edu/courses/cs1699/spring2015/property/>
+
+SELECT ?sname ?parent
+WHERE {
+  ?s p:sname ?sname .
+  OPTIONAL {
+    ?s p:parent ?par . 
+    ?par p:sname ?parent
+  }
+}

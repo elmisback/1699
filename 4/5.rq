@@ -1,0 +1,13 @@
+# Extend the SPARQL query from the previous question to consider subsidiaries
+# at any level (i.e., subsidiaries, subsidiaries of subsidiaries, subsidiaries
+# of subsidiaries of subsidiaries, etc). List them again as pairs of (parent
+# company, subsidiary company).
+
+PREFIX p: <http://db.cs.pitt.edu/courses/cs1699/spring2015/property/>
+
+SELECT ?parent ?subsidiary
+WHERE {
+  ?s p:sname ?subsidiary ;
+     p:parent+ ?par .
+  ?par p:sname ?parent
+}

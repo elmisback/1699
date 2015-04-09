@@ -1,0 +1,13 @@
+# Provide the SPARQL query that will print the name of every company and the
+# names of its subsidiaries (if there are any), as pairs of (parent company
+# name, subsidiary company name). Note that if company A has company B as a
+# subsidiary, then A is the parent company of B.
+
+PREFIX p: <http://db.cs.pitt.edu/courses/cs1699/spring2015/property/>
+
+SELECT ?parent ?subsidiary
+WHERE {
+  ?s p:sname ?subsidiary ;
+     p:parent ?par . 
+  ?par p:sname ?parent
+}

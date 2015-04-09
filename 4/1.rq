@@ -1,0 +1,19 @@
+# Provide the SPARQL query that will print the customer name, the order date
+# (odate), and the product name of every customer who made a purchase of
+# ”office” products (i.e., p:dept = ”office”).
+
+PREFIX p: <http://db.cs.pitt.edu/courses/cs1699/spring2015/property/>
+
+SELECT ?cname ?odate ?pname
+WHERE {
+  ?p p:pid ?pid ;
+     p:dept "office" ;
+     p:pname ?pname .
+
+  ?o p:odate ?odate ;
+     p:pid ?pid ;
+     p:cid ?cid .
+
+  ?c p:cname ?cname ;
+     p:cid ?cid .
+}

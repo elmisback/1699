@@ -1,0 +1,29 @@
+# Provide the SPARQL query that, for every purchase, will print the customer
+# name, customer email, product name, order date (odate), the supplier
+# company’s name, and the price paid (without taxes).
+
+PREFIX p: <http://db.cs.pitt.edu/courses/cs1699/spring2015/property/>
+
+SELECT ?cname ?email ?pname ?odate ?sname ?price
+WHERE {
+  ?o p:odate ?odate ;
+     p:cid ?cid ;
+     p:sid ?sid ;
+     p:priceversion ?pv ;
+     p:pid ?pid .
+  
+  ?c p:cid ?cid ;
+     p:cname ?cname ;
+     p:email ?email .
+
+  ?p p:pid ?pid ;
+     p:pname ?pname .
+
+  ?s p:sid ?sid ;
+     p:sname ?sname .
+
+  ?pr p:pid ?pid ;
+      p:sid ?sid ;
+      p:priceversion ?pv ;
+      p:price ?price
+}

@@ -1,0 +1,25 @@
+# Provide the SPARQL query that will show the total revenue (i.e., sum of price
+# × quantity, without considering taxes) from orders fulfilled by suppliers
+# from PA in February 2015.
+
+PREFIX p: <http://db.cs.pitt.edu/courses/cs1699/spring2015/property/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT (SUM(?net) AS ?revenue)
+WHERE {
+  ?o p:priceversion ?pv ;
+     p:odate ?odate ;
+     p:pid ?pid ;
+     p:oid ?oid ;
+     p:quantity ?quantity ;
+     p:sid ?sid .
+
+  FILTER regex(?odate, "2015-02-\\d\\d")
+
+  ?pr p:pid ?pid ;
+      p:sid ?sid ;
+      p:priceversion ?pv ;
+      p:price ?price
+
+  BIND (xsd:decimal(?price) * xsd:integer(?quantity)  AS ?net)
+}

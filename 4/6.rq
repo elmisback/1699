@@ -1,0 +1,24 @@
+# Provide the SPARQL query that will list supplier’s names (p:sname), order
+# date, and price (without tax), for all suppliers from PA who sold products in
+# January 2015.
+
+PREFIX p: <http://db.cs.pitt.edu/courses/cs1699/spring2015/property/>
+
+SELECT ?sname ?odate ?price
+WHERE {
+  ?s p:sstate "PA" ;
+     p:sname ?sname ;
+     p:sid ?sid .
+
+  ?o p:sid ?sid ;
+     p:pid ?pid ;
+     p:odate ?odate ;
+     p:priceversion ?pv .
+
+  ?pr p:pid ?pid ;
+      p:sid ?sid ;
+      p:priceversion ?pv ;
+      p:price ?price .
+
+  FILTER regex(?odate, "2015-01-\\d{2}")
+}
