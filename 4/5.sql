@@ -5,4 +5,7 @@
  * name. 
  */
 
-
+SELECT DISTINCT Scorers.name, Teams.full_name, Teams.division_name
+FROM Scorers INNER JOIN Teams
+ON Teams.short_name=Scorers.team
+WHERE YEAR(Scorers.date_downloaded)="2015"
