@@ -14,12 +14,16 @@ WHERE {
      p:quantity ?quantity ;
      p:sid ?sid .
 
-  FILTER regex(?odate, "2015-02-\\d\\d")
+  # check if supplier is from PA
+  ?s p:sstate "PA";
+     p:sid ?sid .
+
+  FILTER regex(?odate, "2015-02-\\d\\d") .
 
   ?pr p:pid ?pid ;
       p:sid ?sid ;
       p:priceversion ?pv ;
-      p:price ?price
+      p:price ?price .
 
   BIND (xsd:decimal(?price) * xsd:integer(?quantity)  AS ?net)
 }

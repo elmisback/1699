@@ -1,0 +1,16 @@
+#(Q9 / 15) Points: 6 / File: 9.rq Provide the SPARQL query that will show the
+#breakdown of the number of orders per product department (p:dept). E.g.,
+#clothing|2. 
+
+PREFIX p: <http://db.cs.pitt.edu/courses/cs1699/spring2015/property/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?dept (COUNT(?o) AS ?n_orders)
+WHERE {
+  ?o p:pid ?pid ;
+     p:oid ?oid .
+
+  ?p p:pid ?pid ;
+     p:dept ?dept .
+} 
+GROUP BY ?dept

@@ -1,0 +1,117 @@
+CS 1699: Fundamentals of Data Science (Spring 2015) Department of Computer
+Science, University of Pittsburgh Assignment #5: SPARQL Released: April 7th,
+2015 Due: 11:59pm, Sunday, April 19th, 2015
+
+Goal Gain familiarity with RDF and SPARQL. Description In this assignment you
+are asked to provide SPARQL queries to answer specific questions from RDF
+documents that are similar (i.e., have same type of triplets but additional
+data) to the one provided in:
+http://db.cs.pitt.edu/courses/cs1699/spring2015/assign/hw5.data.ttl The answer
+to each question should be submitted in a single file, named 1.rq for question
+#1, 2.rq for question #2, etc. We expect the following information to be
+stored: · product information, for which we store the following properties: ­
+p:pid = a unique product identifier ­ p:pname = product name ­ p:dept =
+department the product belongs to · order information, for which we store the
+following properties: ­ ­ ­ ­ ­ p:oid = a unique order identifier p:pid = a
+unique product identifier p:sid = a unique supplier identifier p:cid = a unique
+customer identifier p:priceversion = a number that corresponds to which price
+version this product was bought under. The assumed model here is that suppliers
+update their prices periodically and all use consistent price version numbers
+(i.e., at a given point of time, all suppliers prices would be under the same
+priceversion number). The price that corresponds to the highest price version
+number is the current price of a product. ­ p:odate = order date ­ p:quantity =
+quantity of how many products where purchased as part of this order · price
+information, for which we store the following properties: ­ ­ ­ ­ p:pid = a
+unique product identifier p:sid = a unique supplier identifier p:priceversion =
+a number that corresponds to which price version this price refers to. p:price
+= the price for this product for this supplier for the listed price version
+
+· supplier information, for which we store the following properties: ­ p:sid =
+a unique supplier identifier ­ p:sname = the name of the supplier company 1
+
+­ p:scity = the city the supplier is located in ­ p:sstate = the state the supplier is located in ­ p:parent = the parent company of the supplier (i.e., another supplier company) · customer information, for which we store the following properties: ­ p:cid = a unique customer identifier ­ p:ccity = the city the customer lives in ­ p:cstate = the state the customer lives in · tax information, for which we store the following properties: ­ p:state = the state for which we are recording tax information (e.g., PA) ­ this typically would be combined with the p:sstate attribute for suppliers, to dermine tax amounts. ­ p:taxrate = the tax rate for the specified state (e.g., a value of 0.05 means a 5% tax) SPARQL Queries 
+
+(Q1 / 15) Points: 5 / File: 1.rq Provide the SPARQL query that will print the
+customer name, the order date (odate), and the product name of every customer
+who made a purchase of "office" products (i.e., p:dept = "office"). 
+
+(Q2 / 15) Points: 5 / File: 2.rq Provide the SPARQL query that, for every
+purchase, will print the customer name, customer email, product name, order
+date (odate), the supplier company's name, and the price paid (without taxes). 
+
+(Q3 / 15) Points: 6 / File: 3.rq Provide the SPARQL query that will print the
+name of every company and the name of its parent company, for all companies ­
+the parent company field should be blank if the company does not have a parent
+company. 
+
+(Q4 / 15) Points: 6 / File: 4.rq Provide the SPARQL query that will print the
+name of every company and the names of its subsidiaries (if there are any), as
+pairs of (parent company name, subsidiary company name). Note that if company A
+has company B as a subsidiary, then A is the parent company of B. 
+
+(Q5 / 15) Points: 6 / File: 5.rq Extend the SPARQL query from the previous
+question to consider subsidiaries at any level (i.e., subsidiaries,
+subsidiaries of subsidiaries, subsidiaries of subsidiaries of subsidiaries,
+etc). List them again as pairs of (parent company, subsidiary company). 
+
+(Q6 / 15) Points: 6 / File: 6.rq Provide the SPARQL query that will list
+supplier's names (p:sname), order date, and price (without tax), for all
+suppliers from PA who sold products in January 2015.
+
+2
+
+
+
+(Q7 / 15) Points: 6 / File: 7.rq Provide the SPARQL query that will show the
+total revenue (i.e., sum of price × quantity, without considering taxes) from
+orders fulfilled by suppliers from PA in February 2015. 
+
+(Q8 / 15) Points: 6 / File: 8.rq Provide the SPARQL query that will show the
+total tax revenue for the state of Pennsylvania (PA) from orders fulfilled by
+suppliers from PA in March 2015. Tax revenue should be computed by multiplying
+total revenue by the appropriate tax rate. 
+
+(Q9 / 15) Points: 6 / File: 9.rq Provide the SPARQL query that will show the
+breakdown of the number of orders per product department (p:dept). E.g.,
+clothing|2. 
+
+(Q10 / 15) Points: 6 / File: 10.rq Provide the SPARQL query that will show the
+breakdown of the quantity of items sold per product department (p:dept). E.g.,
+clothing|3. 
+
+(Q11 / 15) Points: 6 / File: 11.rq Provide the SPARQL query that will show the
+breakdown of the total revenue (without considering taxes) generated per
+product department (p:dept). E.g., clothing|66. 
+
+(Q12 / 15) Points: 6 / File: 12.rq Provide the SPARQL query that will show the
+breakdown of the total tax revenue (for all states, without further breakdown)
+generated per product department (p:dept). E.g., clothing|3.78. 
+
+(Q13 / 15) Points: 10 / File: 13.rq Provide the SPARQL query that for all
+purchases where a cheaper price was available for the same product, for the
+same price version, but from a different supplier, will print the customer
+name, customer email, product name, order date, the original supplier company's
+name, the price paid, plus the name of the alternate (cheaper) supplier company
+along with the corresponding price (if the product would have been bought from
+that company). 
+
+(Q14 / 15) Points: 10 / File: 14.rq Provide the SPARQL query that will show the
+customer name, the customer's state, the order date, the supplier name, and the
+product name, for all orders the were fulfilled by "local" suppliers (i.e., the
+customer's state and the supplier's state are the same). 
+
+(Q15 / 15) Points: 10 / File: 15.rq Provide the SPARQL query that will show
+product name, company name 1, company name 2, for all the cases where company
+name 1 and company name 2 have the same parent company and both companies have
+raised the price for the specific product by the same amount, from
+p:priceversion 7 to p:priceversion 8.
+
+3
+
+What to submit Submit one zip file (named hw5all.zip) that contains all of the required files (one per question, as specified in the description). Academic Honesty The work in this assignment is to be done independently, by you and only you. Discussions with other students on the assignment should be limited to understanding the statement of the problem. Cheating in any way, including giving your work to someone else, will result in an F for the course and a report to the appropriate University authority for further disciplinary action. How to submit your assignment We will use a Web-based assignment submission interface. To submit your assignment: · Go to the class web page http://db.cs.pitt.edu/courses/cs1699/spring2015 and click the Submit button. · You can submit up to five files at a time. You can come back and submit more files. Please note that files with the same name will overwrite previously submitted files. · Use your pittID as the username and the last four digits of your PeopleSoft ID as the password. There is a reminder service via email if you forget your password. · Upload your assignment file(s) to the appropriate assignment (from the drop-down list). · Check (through the web interface) to verify what is the file size that has been uploaded and make sure it has been submitted in full. It is your responsibility to make sure the assignment was properly submitted. You must submit your assignment before the due date (11:59pm, Sunday, April 19th, 2015) to avoid getting any late penalty. The timestamp of the electronic submission will determine if you have met the deadline. There will be no late submissions allowed after 11:59pm, Tuesday, April 21st, 2015.
+
+[Last updated on April 8, 2015 at 1:48am EST]
+
+4
+
+

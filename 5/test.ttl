@@ -22,14 +22,6 @@ d:oid10511  p:oid   "10511" .     # orders
   d:oid10511  p:odate   "2015-01-22" .
   d:oid10511  p:quantity  "2" .
 
-  d:oid10512  p:oid   "10512" .
-  d:oid10512  p:pid   "123" .
-  d:oid10512  p:sid   "4002" .
-  d:oid10512  p:cid   "602" .
-  d:oid10512  p:priceversion  "8" .
-  d:oid10512  p:odate   "2015-02-19" .
-  d:oid10512  p:quantity  "1" .
-
   d:oid10513  p:oid   "10513" .
   d:oid10513  p:pid   "456" .
   d:oid10513  p:sid   "4002" .
@@ -38,6 +30,14 @@ d:oid10511  p:oid   "10511" .     # orders
   d:oid10513  p:odate   "2015-01-13" .
   d:oid10513  p:quantity  "1" .
 
+  d:oid10512  p:oid   "10512" .
+  d:oid10512  p:pid   "123" .
+  d:oid10512  p:sid   "4002" .
+  d:oid10512  p:cid   "602" .
+  d:oid10512  p:priceversion  "8" .
+  d:oid10512  p:odate   "2015-02-19" .
+  d:oid10512  p:quantity  "1" .
+
   d:oid10514  p:oid   "10514" .
   d:oid10514  p:pid   "123" .
   d:oid10514  p:sid   "4002" .
@@ -45,6 +45,14 @@ d:oid10511  p:oid   "10511" .     # orders
   d:oid10514  p:priceversion  "8" .
   d:oid10514  p:odate   "2015-02-14" .
   d:oid10514  p:quantity  "2" .
+
+  d:oid10515  p:oid   "10515" .
+  d:oid10515  p:pid   "123" .
+  d:oid10515  p:sid   "4001" .
+  d:oid10515  p:cid   "602" .
+  d:oid10515  p:priceversion  "7" .
+  d:oid10515  p:odate   "2015-03-14" .
+  d:oid10515  p:quantity  "3" .
 
 d:price1  p:pid   "123" .         # prices
   d:price1  p:sid   "4001" .

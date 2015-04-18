@@ -1,0 +1,40 @@
+#(Q8 / 15) Points: 6 / File: 8.rq Provide the SPARQL query that will show the
+#total tax revenue for the state of Pennsylvania (PA) from orders fulfilled by
+#suppliers from PA in March 2015. Tax revenue should be computed by multiplying
+#total revenue by the appropriate tax rate. 
+
+PREFIX p: <http://db.cs.pitt.edu/courses/cs1699/spring2015/property/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT (SUM(?tax_revenue) AS ?total_tax_revenue)
+WHERE {
+  ?o p:priceversion ?pv ;
+     p:odate ?odate ;
+     p:pid ?pid ;
+     p:oid ?oid ;
+     p:quantity ?quantity ;
+     p:sid ?sid .
+
+  # filter on month
+  FILTER regex(?odate, "2015-03-\\d\\d") .
+
+  # get price
+  ?pr p:pid ?pid ;
+      p:sid ?sid ;
+      p:priceversion ?pv ;
+      p:price ?price .
+
+  ?ti p:state "PA" ; 
+      p:taxrate ?taxrate .
+
+  OPTIONAL {
+    # check if supplier is from PA
+    ?s p:sstate "PA" ;
+       p:sid ?sid .
+  } .
+
+  BIND(IF(BOUND(?s), 
+          xsd:decimal(?price) * xsd:integer(?quantity) * xsd:decimal(?taxrate),
+          0) 
+       AS ?tax_revenue)
+}

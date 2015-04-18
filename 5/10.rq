@@ -1,0 +1,10 @@
+#(Q10 / 15) Points: 6 / File: 10.rq Provide the SPARQL query that will show the
+#breakdown of the quantity of items sold per product department (p:dept). E.g.,
+#clothing|3. 
+
+PREFIX p: <http://db.cs.pitt.edu/courses/cs1699/spring2015/property/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT 
+WHERE {
+}

@@ -7,3 +7,9 @@
  * make these comparisons.  (Hint: use views to simplify the query)
  */
 
+CREATE OR REPLACE VIEW top_scorers AS
+SELECT team, date_downloaded, COUNT(sid) AS n_scorers
+FROM Scorers
+GROUP BY team, date_downloaded
+
+
